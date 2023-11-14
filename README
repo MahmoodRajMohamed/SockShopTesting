@@ -1,0 +1,48 @@
+Start the application, automation testing will be initiated
+
+  
+  Test Case 1: Verify Logged In User
+
+  Preconditions: Registered firstname and lastname.
+
+  Expected Outcome: Logged in as (firstname lastname)
+
+  Actual Result: The test passed.
+
+
+
+  Test Case 2: Verifing cart item and the  added item are same
+
+  Preconditions: Added an item(colourful) to the cart
+
+  Expected Outcome: Colourful
+
+  Actual Result: The test passed.
+
+
+
+  Test Case 3: Verifing Address
+
+  Preconditions: Updated address
+
+  Expected Outcome: HouseNumber Street
+                    City
+                    PostCode
+                    Country
+
+  Actual Result: The test passed.
+
+
+
+
+  Test Case 4: Verifing Payment
+
+  Preconditions: Updated Card number
+
+  Expected Outcome: Card ending in last 4 digits of the card number
+
+  Actual Result: The test passed.
+
+
+
+Once the test cases are passed, the application quits
